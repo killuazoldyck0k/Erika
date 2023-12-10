@@ -11,13 +11,13 @@ LOG.setLevel(level=logging.INFO)
 #<-----------Variables-------------->
 LOG.info('❤️ Checking Bot Variables.....')
 TRIGGERS = os.environ.get("TRIGGERS", "/ !").split(" ")
-BOT_TOKEN = os.environ.get('BOT_TOKEN', 'your bot token') #BOT Token Add
-API_ID = int(os.environ.get('API_ID', 456789)) #Telgram Api id
-APP_HASH = os.environ.get('APP_HASH', 'your api id')# Telgram App hash  
-OWNER_ID = int(os.environ.get('OWNER_ID', 953362604))
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '6328732075:AAEWaW2yQMAQslOUx6eDrkaH0uLxfN4X_TU') #BOT Token Add
+API_ID = int(os.environ.get('API_ID', 27108998)) #Telgram Api id
+APP_HASH = os.environ.get('APP_HASH', 'f4fc03493766db361d7e85ed8974fe2f')# Telgram App hash  
+OWNER_ID = int(os.environ.get('OWNER_ID', 5191566338))
 MONGO_DB = os.environ.get("MONGO_DB", 'your mongodb') #MONGO DB FOR ANIME DATA
-FILES_CHANNEL = os.environ.get("FILES_CHANNEL", -100456789013)    # Must Fill This ,Add Bot As Admin In Log Channel
-BOT_NAME = os.environ.get('BOT_NAME', 'Soheru')
+FILES_CHANNEL = os.environ.get("FILES_CHANNEL", -1001504198267)    # Must Fill This ,Add Bot As Admin In Log Channel
+BOT_NAME = os.environ.get('BOT_NAME', 'One Piece Bot')
 #<-----------Variables For 4GB Support (Optional)-------------->
 SESSION_STRING = os.environ.get("SESSION_STRING",'None')  #Replace None With String Session   Your String Session Account Must Be Present In Log Channel
 ubot = None  # Don't Touch This
